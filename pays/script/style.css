@@ -1,0 +1,219 @@
+@charset "utf-8";
+/***************************/
+/***** BALISES : BODY ******/
+/***************************/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 0px;
+}
+/***************************/
+/****** BALISES : DIV ******/
+/***************************/
+div.page {
+	margin:auto;
+	width: 1000px;
+	border: none;
+	min-height:740px
+}
+
+div.bandeau {
+
+	width:1000px; height:200px;
+	background-image: url(../image/bandeau.png);	
+}
+
+	div.recherche {
+	margin-left:650px;
+	margin-top: 5px;
+	width:150px;	
+	float: left;
+	text-align: center;
+	vertical-align: top;
+	}
+	div.communes {
+	width:200px;
+	margin-top: 5px;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+div.cartouche {
+	width:1000px;
+	height:20px;
+	background-image: url(../image/bandeau_cartouches.gif);
+}
+div.menu_top {
+
+	width:1000px;
+	height:300px;
+}
+div.centre {
+	width:1000px;
+	min-height:370px;
+	
+}
+	div.gauche {
+	width:300px;
+	height:370x;
+	float: left;	
+	
+	}
+		
+		div.edito {
+		width:300px;
+		height:335px;
+		background-image: url(../image/actu.png);
+		
+		}
+		div.edito_vide {
+		height: 60px;
+		}
+		div.edito_texte {
+		height:275px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		text-align: justify;	
+		margin-right:5px;
+		margin-left:5px;
+		}
+		div.agenda {
+		margin-top: 5px;
+		width:300;
+		height:25px;
+		text-align: center;
+		
+		}
+		div.carte {
+		margin-top: 5px;
+		width:300px;
+		height:80px;
+		background-image: url(../image/carte_chateaugontier.png);	
+		}
+		
+	div.contenu {
+	width:690px;
+	min-height:370x;
+	float: right;
+	margin-top: 20px;
+	margin-bottom:0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	text-align: justify;	
+	}
+		div.actu {
+		width:600px;			
+		margin-top: 0px;
+		margin-bottom:0px;
+		margin-left: 45px;
+		margin-right: 45px;
+		
+		}
+
+
+div.liens {
+	width:1000px;
+	margin-top: 15px;
+	height:25px;
+	text-align:center;
+	}
+div.liensCartouche {
+	width:300px;
+	margin-top: 35px;
+	margin-left: 35px;	
+	text-align:left;
+	}		
+
+div.bas {
+	margin-top: 30px;
+	width:1000px;
+	height:320px;
+	clear:both;
+	background-image: url(../image/bas_chateaugontier.jpg);	
+	
+}
+div.copyright {
+		width:1000px;
+		height:50px;
+		margin-top: 0px;	
+		text-align:center;		
+		}
+div.outils {
+	width:640px;
+	height:25px;
+	margin-left: 50px;		
+}
+/***************************/
+/******* BALISES : A *******/
+/***************************/
+a {
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: Arial;
+	font-size: 14px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+a.menutop {
+	font-family: Arial;
+	font-size: 16px;
+	color: #106470;
+	text-decoration: none;
+	margin-left: 20px;
+}
+a:hover.menutop {
+	font-family: Arial;
+	font-size: 16px;
+	color: #106470;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+/***************************/
+/***** BALISES : LI *****/
+/***************************/
+li.liens {
+	list-style-type:square;
+	color: #106470 ;
+}
+/***************************/
+/***** BALISES : INPUT *****/
+/***************************/
+
+input.recherche {
+	font-family: Arial;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: 15px;
+	margin-right:15px;
+
+}
+input.rechercheok {
+	height: 25px;
+	width: 25px;
+	background-image: url(../image/bouton_ok.gif);
+}
+/***************************/
+/***** BALISES : SELECT ****/
+/***************************/
+select.communes {
+	font-family: Arial;
+	font-size: 12px;
+	height: 20px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: thin solid #000000;	
+}
+/**************************/
+label.recherche {
+display:block;
+width:100px;
+float:left;
+}
+

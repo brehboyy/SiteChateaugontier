@@ -1,0 +1,188 @@
+
+/************ BANDEAU *************/
+
+
+div#menu a { /* Liens principaux au repos */
+color : #000000;
+font-size : 13px;
+font-family : Verdana, "Lucida Grande", Tahoma, Helvetica, Sans-Serif;
+}
+div#menu ul { /* UL principal englobant les autres */
+	padding : 0;
+	margin : 0;
+	text-align : center;
+	width: 1000px;
+	height: 30px;
+	background-image: url(../image/menu.gif);
+}
+div#menu li.sousmenu { /* lien principal au repos */
+	
+	width: 120px;
+	text-align : center;
+	margin : 0px 10px 0px 10px;
+	height: 30px ;
+	
+}
+div#menu li.sousmenu:hover { /* lien principal au passage de la souris */
+
+text-align : center;
+
+}
+div#menu ul li {
+position : relative;
+list-style : none;
+float : left;
+text-align : left;
+height: 33px;
+}
+div#menu ul ul {
+position : absolute;
+display : none;
+width : 140px;
+
+}
+div#menu {
+	padding : 0px 0px 0px 0px;
+	height: 30px;
+	}
+div#menu li a {
+	top : 0px;
+	text-decoration : none;
+	display : block;	
+	padding : 1px 1px 1px 1px;
+}
+
+div#menu ul.niveau2_1 a { /* Sous menu 01 au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #e4342c;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #f2635d;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_1 a:hover { /* sous-menu 01 au passage de la souris */
+
+background-color : #f2635d;
+
+}
+div#menu ul.niveau2_2 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #007398;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #2ca4cb;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_2 a:hover { /* sous-menu au passage de la souris */
+background-color : #2ca4cb;
+
+}
+div#menu ul.niveau2_3 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #ccd401;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #eff635;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_3 a:hover { /* sous-menu au passage de la souris */
+
+background-color : #eff635;
+
+}
+div#menu ul.niveau2_4 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #ac6b24;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #d79853;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_4 a:hover { /* sous-menu au passage de la souris */
+
+background-color : #d79853;
+
+}
+div#menu ul.niveau2_5 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #e42b6e;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #f85993;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_5 a:hover { /* sous-menu au passage de la souris */
+
+background-color : #f85993;
+
+}
+div#menu ul.niveau2_6 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #f9b53f;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #ffd489;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_6 a:hover { /* sous-menu au passage de la souris */
+
+background-color : #ffd489;
+
+}
+div#menu ul.niveau2_7 a { /* Sous menu au repos */
+color : #FFFFFF;
+font-size : 12px;
+width : 140px;
+background-color : #59625b;
+padding-left : 4px;
+height : 40px;
+margin-top: 0px;
+border-left-color: #a0a0a0;
+border-left-width: 1px;
+border-left-style: solid;	
+}
+div#menu ul.niveau2_7 a:hover { /* sous-menu au passage de la souris */
+
+background-color : #a0a0a0;
+
+}
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_1 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_2 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_3 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_4 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_5 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_6 ,
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2_7  {
+display : block;
+	
+}
+/*
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2, div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {
+display : block;
+	
+}*/
+	

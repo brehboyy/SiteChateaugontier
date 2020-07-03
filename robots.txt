@@ -1,0 +1,9 @@
+User-Agent:  *
+Disallow: /association/
+Disallow: /emploi/fichiers/
+Disallow: /emploi/pro/
+Disallow: /gestion/
+Disallow: /intranet/
+Disallow: /map/
+Disallow: /media/
+Disallow: /utilitaire/

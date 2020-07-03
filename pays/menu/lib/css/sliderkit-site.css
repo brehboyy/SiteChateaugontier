@@ -1,0 +1,27 @@
+/** 
+ *  sliderkit-site.css
+ *	> generic styles for Slider Kit plugin website presentation
+ * 
+ */
+
+/*---------------------------------
+ *  Site structure
+ *---------------------------------*/
+body{margin:0;padding:0 0 60px;text-align:center;font-family:Arial, Verdana, sans-serif;font-size:10pt;color:#333;}
+.spacer{clear:both;}
+img{border:none;}
+
+#page{padding:àpx 0 0;border:1px solid #FFFFFF;}
+#content{width:660px;}
+.inner{width:800px;margin:0 auto;text-align:left;background-image: url(../../../image/logo_nb_pays.jpg);}
+.layout-1col #content{float:none;}
+.layout-1col #content.wide{width:auto;}
+
+
+/*---------------------------------
+ *  Slider kit
+ *---------------------------------*/
+.sliderkit,
+.customtabs{margin:0px 0;}
+#page .sliderkit ul,
+#page .customtabs ul{margin:0;}
